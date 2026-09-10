@@ -1,0 +1,29 @@
+# Virtual environment
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Data and model artifacts (downloaded/generated at runtime)
+data/
+einstein_files/
+*.pth
+*.pt
+recognized_text.txt
+top_secret.txt
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Notebook-generated artifacts
+img.png
+final_clean_img.png
+sweep_results.txt
+analysis.json
+exemplars.md
